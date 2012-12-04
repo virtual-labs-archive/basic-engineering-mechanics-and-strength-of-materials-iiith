@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>Fatigue Demo</title>
+
+        <vendor>Fatigue Demo</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.5+"
+              href="http://java.sun.com/products/autodl/j2se"
+              max-heap-size="128m" />
+
+        <jar href="work1.jar" main="true" />
+
+    </resources>
+    <applet-desc 
+         name="Fatigue Applet"
+         main-class="com.vlab.fm.water_content$MyApplet"
+         width="300"
+         height="300">
+     </applet-desc>
+</jnlp>	
