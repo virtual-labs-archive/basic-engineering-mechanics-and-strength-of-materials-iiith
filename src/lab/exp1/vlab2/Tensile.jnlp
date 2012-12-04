@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jnlp spec="1.0+" codebase="" href="">
     <information>
-        <title>Tensile Test</title>
+        <title>Tensile Demo</title>
 
-        <vendor> Tensile Demo</vendor>
+        <vendor>Tensile Demo</vendor>
     </information>
     <resources>
         <!-- Application Resources -->
@@ -11,11 +11,11 @@
               href="http://java.sun.com/products/autodl/j2se"
               max-heap-size="128m" />
 
-        <jar href="vlab2.jar" main="true" />
+        <jar href="virtual.jar" main="true" />
 
     </resources>
     <applet-desc 
-         name="Torsion Demo Applet"
+         name="Tensile Applet"
          main-class="eerc.vlab.demos.Tensile$MyApplet"
          width="300"
          height="300">
