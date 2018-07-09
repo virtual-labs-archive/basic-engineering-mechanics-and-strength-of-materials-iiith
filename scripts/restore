@@ -1,0 +1,11 @@
+#!/bin/bash
+# Restore Script for Basic Engineering Mechanics and Strength of Materials Lab
+
+# Restore Script restores the backup of the data used by the lab.
+# Since there is no data being used by Basic Engineering Mechanics and Strength of Materials Lab, 
+# the script does nothing. 
+
+# Usage of the script
+
+# To use restore script, run the command
+# ./scripts/restore

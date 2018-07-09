@@ -1,0 +1,499 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<div id="experiment"> <!-- The Experiment Document Container-->
+
+  <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+  <header id="experiment-header" class="default">
+  
+    <div id="experiment-header-logo" class="logo">
+      <!-- Enclose the logo image of your lab or write it in 
+      text-->
+      <img src="../images/logo.jpg" />
+    </div>
+
+    <div id="experiment-header-heading" class="heading">
+      <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+      <a href="../index.php">Basic Engineering Mechanics & Strength of Materials Lab</a>	
+    </div>
+
+    <!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="experiment-article">
+  
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+     <div id="experiment-article-breadcrumb" class="breadcrumb">
+     </div>
+    
+      <header id="experiment-article-heading" class="heading">
+        <!-- You can add a welcome message or title of the 
+        experiment here -->
+        Creep Test
+        <!-- Add any additional element if required with proper 
+        enclosing-->
+      </header>
+
+      <!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+      <nav id="experiment-article-navigation" class="default">
+        <ul id="experiment-article-navigation-menu">
+          <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          <li> tag as shown below-->
+        </ul>
+      </nav>
+
+      <!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+      <div id="experiment-article-sections">
+
+        <!-- First section of the article-->
+        <section id="experiment-article-section-1">
+          
+          <div id="experiment-article-section-1-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab -->
+	    <img src="../images/introduction.jpg" />
+	  </div>	
+          
+          <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+          <div id="experiment-article-section-1-heading" 
+          class="heading">
+            Introduction
+          </div>
+
+          <!-- Write the section content inside a paragraph 
+          element, You can also include images with <img> tag -->
+          <div id="experiment-article-section-1-content" 
+          class="content">	
+            <p align="justify">
+            Creep is defined as the long term deformation of a member due to the sustained load. This takes place only when there is a load placed on a member at a single point for longer period of time. In the following experiment a member of certain material is taken for testing. Load is applied at point of member and for every minute extension is noted. 
+            </p>
+
+            <p>
+        <a target="_blank" href="Exp-6 Creep test.pdf">Read More</a>
+        </p>
+          
+        </div>
+
+
+      </section>
+
+      <!-- Second section of the article-->
+      <section id="experiment-article-section-2">
+        
+        <div id="experiment-article-section-2-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/theory.jpg" />
+	</div>
+				
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+        <div id="experiment-article-section-2-heading" 
+        class="heading">
+          Theory
+        </div>
+
+
+        <!-- Write the section content inside a paragraph 
+        element, we can also include images with <img> tag -->
+        <div id="experiment-article-section-2-content" 
+        class="content">
+          <p align="justify">
+          When a material like steel is plastically deformed at ambient temperatures its strength is increased due to work hardening. This work hardening effectively prevents any further deformation from taking place if the stress remains approximately constant. Annealing the deformed steel at an elevated temperature removes the work hardening and restores the steel to its original condition. However, if the steel is plastically deformed at an elevated temperature, then both work hardening and annealing take place simultaneously. A consequence of this is that steel under a constant stress at an elevated temperature will continuously deform with time, that is, it is said to "creep".
+          </p>
+          <p align="justify">
+Creep in steel is important only at elevated temperatures. In general, creep becomes significant at temperatures above about 0.4Tm where Tm is the absolute melting temperature. However, materials having low melting temperatures will exhibit creep at ambient temperatures. Good examples are lead and various types of plastic. For example, lead has a melting temperature of 326°C (599K) and at 20°C (293K, or about 0.5Tm) it exhibits similar creep characteristics to those of iron at 650°C.
+</p>
+           <p>
+        <a target="_blank" href="Exp-6 Creep test.pdf">Read More</a>
+        </p>
+        </div>
+      </section>
+
+
+      <section id="experiment-article-section-3">
+        
+        <div id="experiment-article-section-3-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+     
+        <div id="experiment-article-section-3-heading" 
+        class="heading">
+          Objective
+        </div>
+
+        <div id="experiment-article-section-3-content" 
+        class="content">
+          <p align="justify">
+            To inspect the property of creep in metals (lead in this experiment). 
+          </p> 
+       
+           <p>
+        <a target="_blank" href="Exp-6 Creep test.pdf">Read More</a>
+        </p>
+
+        </div>
+
+      </section>
+
+
+      <section id="experiment-article-section-4">
+
+        <div id="experiment-article-section-4-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab.-->
+	  <img src="../images/simulation.jpg" />
+	</div>
+
+        <div id="experiment-article-section-4-heading" 
+        class="heading">
+          Experiment
+        </div>
+
+        <div id="experiment-article-section-4-content" 
+        class="content">
+          <p>
+	         <!-- <a target="_blank" href="Animation/6.Creep test.html">Go to Flash view on Creep Test Experiment(Click here)</a><br><br> -->
+            <a target="_blank" href="vlab2/6.Creep.html">Go to Virtual lab on Creep Test Experiment(Click here)</a>--!>
+ 
+	        
+            
+          </p>
+        </div>
+
+      </section>
+
+      <section id="experiment-article-section-5">
+   
+        <div id="experiment-article-section-5-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab.
+	  <img src="../images/manual.jpg" />
+	</div>
+
+        <div id="experiment-article-section-5-heading" 
+        class="heading">
+          Manual
+        </div>
+
+        <div id="experiment-article-section-5-content" 
+        class="content">
+          
+
+        <h3>Observation Table</h3> 
+          <ol> 
+            
+            <li>
+              Specimen type: 
+            </li> 
+
+            <li>
+              Specimen dimensions  
+            </li> 
+<br>Thickness:</br>
+		  <br>Width</br>
+		  <br>Gauge Length<br>
+			<li>Tensile Force(F)</li>
+			<li>Stress(N/mm<sup>2</sup>)</li>
+			<li>Ambient temperature:</li>
+
+          </ol>
+
+           <table border="1" align="center">
+<tr>
+<th>S.No</th>
+<th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time (min)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Extension (min) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
+</tr>
+<tr>
+<td>1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>2</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>3</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>4</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>5</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>6</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>7</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+<br>
+ <p>
+        <a target="_blank" href="Exp-6 Creep test.pdf">Read More</a>
+        </p>
+
+          </div>
+
+        </section>
+
+        <section id="experiment-article-section-6">
+      
+          <div id="experiment-article-section-6-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/quizzes.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-6-heading" 
+          class="heading">
+            Quizzes
+          </div>
+
+          <div id="experiment-article-section-6-content" 
+          class="content">
+            
+            <p>
+              
+              <b>Q1.</b> 
+              In multi-storey structure mass should be lumped at centre of columns.  <br> 
+              <input type="radio" name="q1" id="q1" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q1" id="q1" value="0">
+                <font color="red"> False </font> <br/><br/> 
+              
+              <b>Q2.</b> 
+              Number of mode shapes is equal to number of degrees of freedom.<br> 
+              <input type="radio" name="q2" id="q2" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q2" id="q2"value="0">
+                <font color="red"> False </font> <br/><br/> 
+              
+              <b>Q3.</b> 
+               For even number of floors modes shapes will not be orthogonal. <br> 
+              <input type="radio" name="q3" id="q3" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q3" id="q3"value="0">
+                <font color="red"> False </font> <br/><br/> 
+              
+              <b>Q4.</b> 
+              Lowest eigen value is considered as most useful valu.  <br> 
+              <input type="radio" name="q4" id="q4" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q4" id="q4" value="0">
+                <font color="red"> False </font> <br/><br/> 
+              
+              <b>Q5.</b> 
+               All the modes contribute equally to the complete response of the building. <br> 
+              <input type="radio" name="q5" id="q5" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q5" id="q5"value="0">
+                <font color="red"> False </font> <br/><br/> 
+               
+            </p>
+            <p>
+        <a target="_blank" href="Exp-6 Creep test.pdf">Read More</a>
+        </p>
+          </div>
+
+        </section>
+
+        <section id="experiment-article-section-7">
+	  
+          <div id="experiment-article-section-7-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab. -->
+	    <img src="../images/procedure.jpg" />
+	  </div>
+	
+          <div id="experiment-article-section-7-heading" 
+          class="heading">
+	    Procedure
+	  </div>
+	
+          <div id="experiment-article-section-7-content" 
+          class="content">
+	    <p>
+	      Procedure for the experiment is as follows.
+	    </p>
+            
+        <h3>Observation Table</h3> 
+          <ol> 
+            
+            <li>
+              Specimen type: 
+            </li> 
+
+            <li>
+              Specimen dimensions  
+            </li> 
+<br>Thickness:</br>
+		  <br>Width</br>
+		  <br>Gauge Length<br>
+			<li>Tensile Force(F)</li>
+			<li>Stress(N/mm<sup>2</sup>)</li>
+			<li>Ambient temperature:</li>
+
+          </ol>
+
+           <table border="1" align="center">
+<tr>
+<th>S.No</th>
+<th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time (min)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Extension (min) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+
+</tr>
+<tr>
+<td>1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>2</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>3</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>4</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>5</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>6</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>7</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+<br>
+ <p>
+        <a target="_blank" href="Exp-6 Creep test.pdf">Read More</a>
+        </p>
+
+	  </div>
+	
+        </section>
+			
+		
+        <section id="experiment-article-section-8">
+   
+          <div id="experiment-article-section-8-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/readings.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-8-heading" 
+          class="heading">
+            Further Readings
+          </div>
+
+          <div id="experiment-article-section-8-content" 
+          class="content">
+            <ul>	
+              <li>
+                <a href="http://ocw.mit.edu/NR/rdonlyres/Aeronautics-and-Astronautics/16-20Structural-%20MechanicsFall2002/7E90098F-C973-4B10-9C91-94730623C3B9/0/unit22.pdf">http://ocw.mit.edu/NR/rdonlyres/Aeronautics-and-Astronautics/16-20Structural-%20MechanicsFall2002/7E90098F-C973-4B10-9C91-94730623C3B9/0/unit22.pdf</a>
+              </li>
+              <li>
+                <a href="http://ece.olin.edu/dynamics/assign/ps5_f08.pdf">http://ece.olin.edu/dynamics/assign/ps5_f08.pdf</a>
+              </li> 
+              
+              <li>
+                <a href="http://www.aerostudents.com/files/vibrations/multipleDegreeOfFreedomSystems.pdf">http://www.aerostudents.com/files/vibrations/multipleDegreeOfFreedomSystems.pdf</a> 
+              </li>
+<li>
+ "Earthquake Resistant Design of Structures" by Pankaj Agarwal, Manish Shrikande
+</li>
+            </ul>
+          </div>
+
+        </section>
+
+      </div>
+
+
+    <!-- An article can have a sidebar that contain related 
+    links and additional material (however it is kept optional 
+    at this moment) -->
+    <aside id="lab-article-sidebar" class="default">
+      <!-- put the content that you want to appear in the 
+      sidebar -->	
+    </aside>
+
+
+    <!-- Article footer can display related content and 
+    additional links -->						
+    <footer id="lab-article-footer" class="default">
+      <!-- Put the content that you want to appear here -->
+    </footer>
+
+  </article>
+
+
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>		
+
+</body>
+</html>

@@ -1,0 +1,472 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<div id="experiment"> <!-- The Experiment Document Container-->
+
+  <!-- The lab Header contains the logo and the name of the lab,
+  usually displayed on the top of the page-->
+
+  <header id="experiment-header" class="default">
+  
+    <div id="experiment-header-logo" class="logo">
+      <!-- Enclose the logo image of your lab or write it in 
+      text-->
+      <img src="../images/logo.jpg" />
+    </div>
+
+    <div id="experiment-header-heading" class="heading">
+      <!-- Write the name of your lab and link it to the home 
+      page of your lab (h1 tag is preferred while writing your 
+      lab name)-->
+      <a href="../index.php">Basic Engineering Mechanics & Strength of Materials Lab</a>	
+    </div>
+
+    <!-- Add any additional element you want to add to the lab 
+    header, For example : Help (Enclosing them with suitable 
+    div is recommended)-->
+
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="experiment-article">
+  
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+     <div id="experiment-article-breadcrumb" class="breadcrumb">
+     </div>
+    
+      <header id="experiment-article-heading" class="heading">
+        <!-- You can add a welcome message or title of the 
+        experiment here -->
+        Torsion Test
+        <!-- Add any additional element if required with proper 
+        enclosing-->
+      </header>
+
+      <!-- Navigation menu is useful to organize the view of 
+      multiple sections inside the article-->
+      <nav id="experiment-article-navigation" class="default">
+        <ul id="experiment-article-navigation-menu">
+          <!-- The menu can be dynamically generated to contain 
+          the headings of your sections or instead write the 
+          menu items of your choice individually enclosedu in 
+          <li> tag as shown below-->
+        </ul>
+      </nav>
+
+      <!-- All the sections of your lab or experiment can be 
+      enclosed together with a div element as shown below-->
+      <div id="experiment-article-sections">
+
+        <!-- First section of the article-->
+        <section id="experiment-article-section-1">
+          
+          <div id="experiment-article-section-1-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab -->
+	    <img src="../images/introduction.jpg" />
+	  </div>	
+          
+          <!-- The heading for the section can be enclosed in a 
+          div tag. -->
+          <div id="experiment-article-section-1-heading" 
+          class="heading">
+            Introduction
+          </div>
+
+          <!-- Write the section content inside a paragraph 
+          element, You can also include images with <img> tag -->
+          <div id="experiment-article-section-1-content" 
+          class="content">	
+            <p align="justify">
+            Testing of round circular samples is another method of determining a basic engineering relationship in structural materials. Unlike tensile testing, torsional tests are not complicated by the phenomenon of necking and reduction in areas.
+            </p>
+
+            <p align="justify">
+            Torsion occurs when any shaft is subjected to a torque. This is true whether the shaft is rotating (such as drive shafts on engines, motors and turbines) or stationary (such as with a bolt or screw). The torque makes the shaft twist and one end rotates relative to the other inducing shear stress on any cross section. Failure might occur due to shear alone or because the shear is accompanied by stretching or bending.
+            </p>
+
+           <p>
+        <a target="_blank" href="Exp-4 Torsion test.pdf">Read More</a>
+        </p>
+          
+        </div>
+
+
+      </section>
+
+      <!-- Second section of the article-->
+      <section id="experiment-article-section-2">
+        
+        <div id="experiment-article-section-2-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/theory.jpg" />
+	</div>
+				
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+        <div id="experiment-article-section-2-heading" 
+        class="heading">
+          Theory
+        </div>
+
+
+        <!-- Write the section content inside a paragraph 
+        element, we can also include images with <img> tag -->
+        <div id="experiment-article-section-2-content" 
+        class="content">
+          <p align="justify">
+          A shaft fixed at one end and twisted at the other end due to the action of torque T. The radius of shaft is R and the length is L.<br> 
+Imagine a horizontal radial line drawn on the end face. When the end is twisted, the line rotates through an angle θ.<br>
+G is one of the elastic constants of the material. The equation is only true so long as the material remains elastic.<br>
+          </p>
+          <p align="justify">
+           T/J = Gϴ/L <br>
+          </p> 
+
+          <p align="justify">
+          Where <br>
+T = Torque applied <br>
+J = polar moment of inertia of the shaft = πd4/32 <br>
+C = rigidity modulus of the material <br>
+ϴ = relative angle of twist in radians <br>
+L = gauge length (length of the shaft over which the relative angle of twist is measured) 
+
+          </p>
+          
+           
+<p>
+        <a target="_blank" href="Exp-4 Torsion test.pdf">Read More</a>
+        </p>
+        </div>
+      </section>
+
+
+      <section id="experiment-article-section-3">
+        
+        <div id="experiment-article-section-3-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+     
+        <div id="experiment-article-section-3-heading" 
+        class="heading">
+          Objective
+        </div>
+
+        <div id="experiment-article-section-3-content" 
+        class="content">
+          <p align="justify">
+            To find the angle of twist and to obtain some of the mechanical properties of the given material by conducting torsion test.
+
+          </p> 
+       
+                     
+<p>
+        <a target="_blank" href="Exp-4 Torsion test.pdf">Read More</a>
+        </p>
+        </div>
+
+      </section>
+
+
+      <section id="experiment-article-section-4">
+
+        <div id="experiment-article-section-4-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab.-->
+	  <img src="../images/simulation.jpg" />
+	</div>
+
+        <div id="experiment-article-section-4-heading" 
+        class="heading">
+          Experiment
+        </div>
+
+        <div id="experiment-article-section-4-content" 
+        class="content">
+          <p>
+	         <a target="_blank"
+               href="Animation/4.Torsion-Bar_with-load.avi">Go to Flash view on
+Torsion Test Experiment(Click here)</a><br><br>
+           <a target="_blank" href="vlab2/4.Torsion.html">Go to Virtual lab on Torsion Test Experiment(Click here)</a>
+ 
+            
+          </p>
+
+        </div>
+
+      </section>
+
+      <section id="experiment-article-section-5">
+   
+        <div id="experiment-article-section-5-icon" 
+        class="icon">
+	  <!-- Enclose the icon image of your lab.-->
+	  <img src="../images/manual.jpg" />
+	</div>
+
+        <div id="experiment-article-section-5-heading" 
+        class="heading">
+          Manual
+        </div>
+
+        <div id="experiment-article-section-5-content" 
+        class="content">
+          
+
+        <h3>Observation</h3> 
+          <ol> 
+            
+            <li>
+              Length of the member, I = 
+            </li> 
+
+            <li>
+              Diameter of the member, D =
+            </li> 
+
+          </ol><br>
+
+<table border="1" align="center">
+<tr>
+<th>S.No</th>
+<th>Torque in N-mm</th>
+<th>Angle of Twist in Degrees</th>
+</tr>
+<tr>
+<td>1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>2</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>3</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>4</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>5</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>6</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>7</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+           <p>
+        <a target="_blank" href="Exp-4 Torsion test.pdf">Read More</a>
+        </p>
+
+          </div>
+
+        </section>
+
+        <section id="experiment-article-section-6">
+      
+          <div id="experiment-article-section-6-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/quizzes.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-6-heading" 
+          class="heading">
+            Quizzes
+          </div>
+
+          <div id="experiment-article-section-6-content" 
+          class="content">
+            
+            <p>
+              
+              <b>Q1.</b> 
+              The torque is applied along the center of axis of the shaft.<br> 
+              <input type="radio" name="q1" id="q1" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q1" id="q1" value="0">
+                <font color="red"> False </font> <br/><br/> 
+              
+              <b>Q2.</b> 
+              The material is tested at steady state (absence of strain rate effects).<br> 
+              <input type="radio" name="q2" id="q2" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q2" id="q2"value="0">
+                <font color="red"> False </font> <br/><br/> 
+              
+              <b>Q3.</b> 
+              Plane sections remain plane after twisting.  <br> 
+              <input type="radio" name="q3" id="q3" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q3" id="q3"value="0">
+                <font color="red"> False </font> <br/><br/> 
+              
+              <b>Q4.</b> 
+             Shear failure is along the maximum shear plane.  <br> 
+              <input type="radio" name="q4" id="q4" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q4" id="q4" value="0">
+                <font color="red"> False </font> <br/><br/> 
+              
+              <b>Q5.</b> 
+              Tensile failure is perpendicular to the maximum tensile stress. <br> 
+              <input type="radio" name="q5" id="q5" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q5" id="q5"value="0">
+                <font color="red"> False </font> <br/><br/> 
+            
+              <b>Q6.</b> 
+               Modulus of rupture is also called as ultimate torsional shearing stress.  <br> 
+              <input type="radio" name="q5" id="q5" value="1"> 
+                <font color="green"> True </font> <br> 
+              <input type="radio" name="q5" id="q5"value="0">
+                <font color="red"> False </font> <br/><br/> 
+                
+            </p>
+
+<p>
+        <a target="_blank" href="Exp-4 Torsion test.pdf">Read More</a>
+        </p>
+          </div>
+
+        </section>
+
+        <section id="experiment-article-section-7">
+	  
+          <div id="experiment-article-section-7-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab. -->
+	    <img src="../images/procedure.jpg" />
+	  </div>
+	
+          <div id="experiment-article-section-7-heading" 
+          class="heading">
+	    Procedure
+	  </div>
+	
+          <div id="experiment-article-section-7-content" 
+          class="content">
+	    <p>
+	      Procedure for the experiment is as follows.
+	    </p>
+<p slign="justify">
+1. Measure the overall length and the diameter at about three places and take the average value of the test specimen.<br>
+2. Draw a line down the length of the test section of the specimen with a chalk; this serves as a visual aid to the degree of twist being put on the specimen during loading.<br>
+3. Select the driving dogs to suit the size of the specimen and clamp it in the machine by means of a sliding spindle.<br>
+4. Choose the appropriate range by capacity change lever.<br>
+5. Set the maximum load pointer to zero.<br>
+6. Set the protector to zero for convenience and clamp it by means knurled screw.<br>
+7. Carry out straining by rotating the hand wheel in either direction.<br>
+8. Load the machine in suitable increments, taking note of the torque and the corresponding angle of twist.<br>
+9. Plot a graph between torque and angle of twist and calculate the value of G by using the following relation
+</p>
+           <p>
+        <a target="_blank" href="Exp-4 Torsion test.pdf">Read More</a>
+        </p>
+	  </div>
+	
+        </section>
+			
+		
+        <section id="experiment-article-section-8">
+   
+          <div id="experiment-article-section-8-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/readings.jpg" />
+	  </div>
+
+          <div id="experiment-article-section-8-heading" 
+          class="heading">
+            Further Readings
+          </div>
+
+          <div id="experiment-article-section-8-content" 
+          class="content">
+            <ul>	
+              <li>
+                <a href="http://www.scribd.com/doc/136565/Mechanics-of-Materials-Torsion-Test">http://www.scribd.com/doc/136565/Mechanics-of-Materials-Torsion-Test</a>
+              </li>
+              <li>
+                <a href="http://www.sut.ac.th/engineering/Metal/pdf/MechMet/10_Torsion%20test.pdf">http://www.sut.ac.th/engineering/Metal/pdf/MechMet/10_Torsion%20test.pdf</a>
+              </li> 
+              
+              <li>
+                <a href="http://www.docstoc.com/docs/11899348/Lab-2-Torsion-test">http://www.docstoc.com/docs/11899348/Lab-2-Torsion-test</a> 
+              </li>
+              <li>
+Strength of Materials: W.A.Nash Schaum’s outline series, Tata Mcgraw Hill
+</li>
+<li>
+ Strength of Materials A Practical Approach (volume-I): D.S. Prakash Rao, University Press
+</li>
+<li>
+Strength of Materials: R. Subramaniam OXFORD
+</li>
+            </ul>
+          </div>
+
+        </section>
+
+      </div>
+
+
+    <!-- An article can have a sidebar that contain related 
+    links and additional material (however it is kept optional 
+    at this moment) -->
+    <aside id="lab-article-sidebar" class="default">
+      <!-- put the content that you want to appear in the 
+      sidebar -->	
+    </aside>
+
+
+    <!-- Article footer can display related content and 
+    additional links -->						
+    <footer id="lab-article-footer" class="default">
+      <!-- Put the content that you want to appear here -->
+    </footer>
+
+  </article>
+
+
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>		
+
+</body>
+</html>
