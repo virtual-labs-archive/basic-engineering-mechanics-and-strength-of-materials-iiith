@@ -99,6 +99,8 @@
 							
 							<!--edit -->
 <h1 class="text-h2-lightblue">Fatigue Test</h1><div class="content" id="experiment-article-section-6-content">
+<script src="evaluate.js" type="text/javascript"></script>
+<form method="post" name="quiz">
 <p>
 <b>Q1.</b> 
               The ratio of applied load to the cross-sectional area is stress. <br>
@@ -113,7 +115,7 @@
 <input id="q2" name="q2" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
 <b>Q3.</b> 
-              Youngâs modulus is the ratio of strain to stress. <br>
+              Youngs modulus is the ratio of strain to stress. <br>
 <input id="q3" name="q3" type="radio" value="1">
 <font color="green"> True </font> <br>
 <input id="q3" name="q3" type="radio" value="0">
@@ -130,7 +132,8 @@
 <font color="green"> True </font> <br>
 <input id="q5" name="q5" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
-</input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></p>
+<input class="button" onclick="eval();" type="button" value="Evaluate"/>
+<input class="button" onclick="document.quiz.reset();" type="button" value="Reset"/></p>
 <p>
 <a href="Exp-7 Fatigue test.pdf" target="_blank">Read More</a>
 </p>
