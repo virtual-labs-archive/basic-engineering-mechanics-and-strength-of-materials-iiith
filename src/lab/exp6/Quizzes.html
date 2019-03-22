@@ -99,6 +99,8 @@
 							
 							<!--edit -->
 <h1 class="text-h2-lightblue">Creep Test</h1><div class="content" id="experiment-article-section-6-content">
+<script src="evaluate.js" type="text/javascript"></script>
+<form method="post" name="quiz">
 <p>
 <b>Q1.</b> 
               In multi-storey structure mass should be lumped at centre of columns.  <br>
@@ -119,7 +121,7 @@
 <input id="q3" name="q3" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
 <b>Q4.</b> 
-              Lowest eigen value is considered as most useful valu.  <br>
+              Lowest eigen value is considered as most useful value.  <br>
 <input id="q4" name="q4" type="radio" value="1">
 <font color="green"> True </font> <br>
 <input id="q4" name="q4" type="radio" value="0">
@@ -130,7 +132,8 @@
 <font color="green"> True </font> <br>
 <input id="q5" name="q5" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
-</input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></p>
+<input class="button" onclick="eval();" type="button" value="Evaluate"/>
+<input class="button" onclick="document.quiz.reset();" type="button" value="Reset"/></p>
 <p>
 <a href="Exp-6 Creep test.pdf" target="_blank">Read More</a>
 </p>
