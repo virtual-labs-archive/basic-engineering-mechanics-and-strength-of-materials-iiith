@@ -99,6 +99,8 @@
 							
 							<!--edit -->
 <h1 class="text-h2-lightblue">Principal Stresses</h1><div class="content" id="experiment-article-section-6-content">
+<script src="check.js"></script>
+<form method="post" name="quiz">
 <p>
 <b>Q1.</b> 
                We apply the experiment in close end condition.  <br>
@@ -130,7 +132,12 @@
 <font color="green"> True </font> <br>
 <input id="q5" name="q5" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
-</input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></p>
+<input class= "button" onclick = "eval();" type = "button" value="Evaluate"/>
+<input class="button" onclick="document.quiz.reset();" type="button" value="Reset"/>
+<p id = "score"></p>
+<p id = "ans"></p>
+</p>
+
 <p>
 <a href="Exp-9 Principal stresses.pdf" target="_blank">Read More</a>
 </p>
