@@ -136,8 +136,9 @@
 <font color="green"> True </font> <br>
 <input id="q5" name="q5" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
-</input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></p>
 <p>
+<input class="button" onclick="eval();" type="button" value="Evaluate"/>
+<input class="button" onclick="document.quiz.reset();" type="button" value="Reset"/></p>
 <a href="Exp-4 Torsion test.pdf" target="_blank">Read More</a>
 </p>
 </div>						</div>
@@ -221,7 +222,8 @@
     
     <!-- Include js plugin -->
 	<script src="../../../vendors/owl-carousel/owl.carousel.js"></script>
-	
+<script src="evaluate.js" type="text/javascript"></script>
+<form method="post" name="quiz">	
 	<script type="text/javascript">
 	$(document).ready(function() {
 		 
