@@ -101,35 +101,38 @@
 <h1 class="text-h2-lightblue">Principal Stresses</h1><div class="content" id="experiment-article-section-6-content">
 <p>
 <b>Q1.</b> 
-               We apply the experiment in close end condition.  <br>
-<input id="q1" name="q1" type="radio" value="1">
+<span id="Q1"> We apply the experiment in close end condition.  </span><br>
+<input id="q1t" name="q1" type="radio" value="1">
 <font color="green"> True </font> <br>
-<input id="q1" name="q1" type="radio" value="0">
+<input id="q1f" name="q1" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
 <b>Q2.</b> 
-              Longitudinal stress is equal to half the hoop stress in same pressure.<br>
-<input id="q2" name="q2" type="radio" value="1">
+<span id="Q2">              Longitudinal stress is equal to half the hoop stress in same pressure.</span><br>
+<input id="q2t" name="q2" type="radio" value="1">
 <font color="green"> True </font> <br>
-<input id="q2" name="q2" type="radio" value="0">
+<input id="q2f" name="q2" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
 <b>Q3.</b> 
-               In an open end condition, longitudinal stress is equal to zero. <br>
-<input id="q3" name="q3" type="radio" value="1">
+ <span id="Q3">              In an open end condition, longitudinal stress is equal to zero. </span><br>
+<input id="q3t" name="q3" type="radio" value="1">
 <font color="green"> True </font> <br>
-<input id="q3" name="q3" type="radio" value="0">
+<input id="q3f" name="q3" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
 <b>Q4.</b> 
-              We have two strain gauges to measure hoop stress. <br>
-<input id="q4" name="q4" type="radio" value="1">
+<span id="Q4">              We have two strain gauges to measure hoop stress. </span><br>
+<input id="q4t" name="q4" type="radio" value="1">
 <font color="green"> True </font> <br>
-<input id="q4" name="q4" type="radio" value="0">
+<input id="q4f" name="q4" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
 <b>Q5.</b> 
-              In thin cylinder, the ratio of wall thickness to the internal diameter is less than 1/20 due to which radial stress is ignored. <br>
-<input id="q5" name="q5" type="radio" value="1">
+<span id="Q5">              In thin cylinder, the ratio of wall thickness to the internal diameter is less than 1/20 due to which radial stress is ignored. </span><br>
+<input id="q5t" name="q5" type="radio" value="1">
 <font color="green"> True </font> <br>
-<input id="q5" name="q5" type="radio" value="0">
+<input id="q5f" name="q5" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
+<button id="quiz9-result" type="button">
+     Submit 
+</button>
 </input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></input></br></p>
 <p>
 <a href="Exp-9 Principal stresses.pdf" target="_blank">Read More</a>
@@ -215,6 +218,52 @@
     
     <!-- Include js plugin -->
 	<script src="../../../vendors/owl-carousel/owl.carousel.js"></script>
+
+	<script type="text/javascript">
+		c=0;
+$('#quiz9-result').click(
+    function(){
+        if($("#q1t").is(':checked')) {
+            $('#Q1').css("background-color", "green");
+            c+=1;
+        }
+        if($("#q1f").is(':checked')){
+            $('#Q1').css("background-color", "red");
+        }
+        if($("#q2t").is(':checked')) {
+            $('#Q2').css("background-color", "green");
+            c+=1;
+        }
+        if($("#q2f").is(':checked')){
+            $('#Q2').css("background-color", "red");
+        }
+        if($("#q3f").is(':checked')) {
+            $('#Q3').css("background-color", "green");
+            c+=1;
+        }
+        if($("#q3t").is(':checked')){
+            $('#Q3').css("background-color", "red");
+        }
+        if($("#q4t").is(':checked')) {
+            $('#Q4').css("background-color", "green");
+            c+=1;
+        }
+        if($("#q4f").is(':checked')){
+            $('#Q4').css("background-color", "red");
+        }
+        if($("#q5t").is(':checked')) {
+            $('#Q5').css("background-color", "green");
+            c+=1;
+        }
+        if($("#q5f").is(':checked')){
+            $('#Q5').css("background-color", "red");
+        }
+
+        alert("You scored "+c+"/5. Congrats!");
+        c=0;
+    }
+);
+	</script>
 	
 	<script type="text/javascript">
 	$(document).ready(function() {
