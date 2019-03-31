@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -102,16 +103,21 @@
 <p>
 <b>Q1.</b> 
               Coiled spring is also known as helical spring.  <br>
-<input id="q1" name="q1" type="radio" value="1">
+<input id="q1t" name="q1" type="radio" value="1">
 <font color="green"> True </font> <br>
-<input id="q1" name="q1" type="radio" value="0">
+<input id="q1f" name="q1" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
 <b>Q2.</b> 
               Compression spring is a special type of torsion spring. <br>
-<input id="q2" name="q2" type="radio" value="1">
+<input id="q2t" name="q2" type="radio" value="1">
 <font color="green"> True </font> <br>
-<input id="q2" name="q2" type="radio" value="0">
+<input id="q2f" name="q2" type="radio" value="0">
 <font color="red"> False </font> <br/><br/>
+
+<br><br>
+<button onclick="checkerfn()">Submit (Q1 and Q2 only)</button>
+<br><br>
+
 <b>Q3.</b> 
                What do you mean by deflection?  <br/><br/>
 <b>Q4.</b> 
@@ -247,6 +253,32 @@
 	  });
 	 
 	});
+
+	function checkerfn() {
+		q1ans = 0;
+		q2ans = 0;
+
+		if(document.getElementById('q1t').checked)
+			q1ans = 1;
+		if(document.getElementById('q2t').checked)
+			q2ans = 1;
+
+		strans = '';
+		strans += 'Answer to Q1 is '
+		if(q1ans == 1)
+			strans += 'Correct!\n'
+		else
+			strans += 'Incorrect!\n'
+
+		strans += 'Answer to Q2 is '
+		if(q2ans == 0)
+			strans += 'Correct!\n'
+		else
+			strans += 'Incorrect!\n'
+
+		window.alert(strans);
+
+	}
 	</script>
 	
 </html>
